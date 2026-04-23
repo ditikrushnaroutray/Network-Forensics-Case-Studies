@@ -1,0 +1,35 @@
+# Network Forensics Repository - Git Ignore
+
+# 1. Ignore large packet capture files
+*.pcap
+*.pcapng
+*.cap
+*.dmp
+
+# 2. Ignore archives and compressed data
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.rar
+*.7z
+
+# 3. Ignore temporary extraction folders
+temp_extract_dir/
+extracted/
+unpacked/
+
+# 4. Ignore memory dumps and raw binaries
+*.mem
+*.bin
+*.raw
+
+# 5. OS generated files (Linux/Mac/Windows junk)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.env
